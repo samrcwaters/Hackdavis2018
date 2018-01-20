@@ -7,7 +7,9 @@
 </head>
 <body>
 	<!--<a class = "websiteName" href = "./Home.html"> HELLOCAL </a>-->
-	<a href = "./Home.html"> <img src="https://i.imgur.com/G7UWo.gif" alt = "testpic" vstyle="width:42px;height:42px;border:0;"> </a>
+	<div class = "logo">
+		<a href = "./Home.html"> <img class = "logo" src="https://i.imgur.com/G7UWo.gif" alt = "testpic" vstyle="width:42px;height:42px;border:0;"> </a>
+	</div>
 	<section>
 		<div id = "welcome">
 			<p class = "words"> What You Looking For? </p>
@@ -21,11 +23,22 @@
 		</nav>
 	</div>
 	<section>
-		<div class="search-container">
-    		<form action="/action_page.php">
-      			<input type="text" placeholder="Search.." name="search">
-      			<button type="submit">Submit</button>
-    		</form>
+		<div class="searchOptions">
+    		<form action="/action_page.php" method="get">
+    			<span>
+    				<div class = "optionsLeft">
+  						<input type="checkbox" name="thingsToDo" value="Nature"> Nature<br>
+  						<input type="checkbox" name="thingsToDo" value="Shop"> Shop<br>
+  						<input type="checkbox" name="thingsToDo" value="Movie"> Movie<br>
+  					</div>
+  					<div class = "optionsRight">
+  						<input type="checkbox" name="thingsToDo" value="Random"> Random<br>
+  						<input type="checkbox" name="thingsToDo" value="Study"> Study<br>
+  						<input type="checkbox" name="thingsToDo" value="Relax"> Relax<br>
+  					</div>
+  				</span>
+  				<input type="submit" value="Submit">
+			</form>
   		</div>
 	</section>
 </body>
