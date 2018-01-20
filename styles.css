@@ -1,11 +1,35 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border:0;
-    /*margin:10vh, 30vw, 10vh, 30vw;*/
+    margin:0;/*10vh, 30vw, 10vh, 30vw;*/
     padding:0;
+    background-color: #fc9;
 }
 
-p.intro {
+div#welcome {
+    text-align: center;
     color:red;
     font-size: 4em;
+    text-shadow: 2px 2px 4px #000;
+}
+
+div#navigation {
+    
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:link, a:visited {
+    color:#f00;
+}
+
+a:hover {
+    color:#f60;
+}
+
+a:active {
+    color:#c63;
 }
