@@ -1,15 +1,26 @@
+@font-face {
+    font-family: primelight;
+    src:url('Fonts/Prime_Light.otf');
+}
+
+@font-face {
+    font-family: primereg;
+    src:url('Fonts/Prime_Regular.otf');
+}
+
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: primelight;
     border:0;
-    margin:0; /*10vh, 30vw, 10vh, 30vw;*/
+    margin:30vh 0 0 0;
     padding:0;
     background-color: #fc9;
 }
 
 div#welcome {
+    font-family: primereg;
     text-align: center;
     color:red;
-    font-size: 10vw;
+    font-size: 9vw;
     text-shadow: 0.25vw 0.25vw 0.5vw #000;
 }
 
@@ -22,23 +33,32 @@ nav {
     width: fit-content;
 }
 
-a.buttonLink {
-    margin: 5vw;
-    font-size: 3vw;
+img {
+    position: fixed;
+    left:0;
+    top:0;
 }
 
 a {
     text-decoration: none;
 }
 
-a:link, a:visited {
+a.buttonLink {
+    margin: 5vw;
+    font-size: 3vw;
+}
+
+a.buttonLink:link, a.buttonLink:visited {
     color:#f00;
+    text-shadow: 0.15vw 0.15vw 0.30vw #000;
 }
 
-a:hover {
+a.buttonLink:hover {
     color:#f60;
+    text-shadow: 0.15vw 0.15vw 0.30vw #000;
 }
 
-a:active {
-    color:#960;
+a.buttonLink:active {
+    color:#f60;
+    text-shadow: 0.15vw 0.15vw 0.30vw #f00;
 }
