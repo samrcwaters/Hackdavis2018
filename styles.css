@@ -43,10 +43,12 @@ nav {
     position: fixed;
     top:0;
     left:0;
+    transition: 1s;
 }
 
 nav:hover {
     background:linear-gradient(#09fc,#0000);
+    transition: 1s;
 }
 
 img.logo {
@@ -55,6 +57,12 @@ img.logo {
     left:0;
     bottom:0;
     margin: 2vw;
+    transition: 1s;
+}
+
+img.logo:hover {
+    filter: invert(100%);
+    transition: 1s;
 }
 
 img.upload {
@@ -85,16 +93,19 @@ a.buttonLink {
 a.buttonLink:link, a.buttonLink:visited {
     color:#fff;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
+    transition: 1s;
 }
 
 a.buttonLink:hover {
-    color:#ff6;
+    color:#cc6;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
+    transition: 1s;
 }
 
 a.buttonLink:active {
-    color:#ff6;
+    color:#cc6;
     text-shadow: 0.07vw 0.07vw 0.15vw #f00;
+    transition: 1s;
 }
 
 /* INPUT - SEARCH PAGE AND UPLOAD PAGE */
@@ -138,6 +149,7 @@ input.button, input.buttonUpload {
     border:0.2vw solid #000;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
     cursor: pointer;
+    transition: 1s;
 }
 
 input.button {
@@ -146,16 +158,19 @@ input.button {
 
 input.buttonUpload {
     margin: 0 auto 2vh 0;
+    transition: 1s;
 }
 
 input.button:hover, input.buttonUpload:hover {
     background-color: #333;
     border:0.2vw solid #000;
+    transition: 1s;
 }
 
 input.button:active, input.buttonUpload:active {
     background-color: #666;
     border:0.2vw solid #000;
+    transition: 1s;
 }
 
 /* SUBMIT FORM - UPLOAD PAGE */
@@ -197,6 +212,7 @@ img.signature {
     position: absolute;
     left: 60vw;
     top: 50vw;
+    cursor: default;
 }
 
 /* SUBMIT BUTTON - SUBMIT PAGE */
@@ -210,12 +226,14 @@ div.uploadSection {
 /* width */
 ::-webkit-scrollbar {
     width: 1vw;
+    transition: 1s;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 1vw #666; 
     border-radius: 0vw;
+    transition: 1s;
 }
  
 /* Handle */
@@ -223,9 +241,11 @@ div.uploadSection {
     background: #ccc; 
     border-radius: 10vw;
     box-shadow: inset 0 0 1vw #fff;
+    transition: 1s;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #666; 
+    background: #666;
+    transition: 1s;
 }
