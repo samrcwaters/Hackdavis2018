@@ -38,8 +38,8 @@ nav {
 img {
     width:30vh;
     position: fixed;
-    left:5;
-    bottom:5;
+    left:0;
+    bottom:0.5;
 }
 
 /* NAV BAR - ALL PAGES */
