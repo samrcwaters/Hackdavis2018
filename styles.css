@@ -83,6 +83,10 @@ div.options {
     font-size: 2vw;
 }
 
+.logo {
+    margin: 20px;
+}
+
 span {
     display: inline;
     text-align: center;
