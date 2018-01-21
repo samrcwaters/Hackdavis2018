@@ -27,7 +27,21 @@
     </section>
     <section>
         <div class="options">
-            <p class="words">Will say true if PHP is enabled: <?php echo 'true' ?></p>
+            <p class="words">
+				<?php
+				if ($_POST["type"]=="submission") {
+					echo "Name: " . $_POST["name"] . "<br>";
+					echo "Location: " . $_POST["location"] . "<br>";
+					echo "Tags: " . $_POST["tags"] . "<br>";
+				}
+				else if ($_POST["type"]=="emotion") {
+					echo "Thanks for telling us how you feel!";
+				}
+				else if ($_POST["type"]=="goto") {
+					echo "We'll help you get where you want to go!";
+				}
+				?>
+			</p>
         </div>
     </section>
 </body>
