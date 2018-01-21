@@ -186,3 +186,28 @@ p.aboutinfo {
 div.uploadSection {
     margin: auto;
 }
+
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1vw #666; 
+    border-radius: 0vw;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ccc; 
+    border-radius: 10vw;
+    box-shadow: inset 0 0 1vw #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #666; 
+}
