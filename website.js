@@ -1,10 +1,10 @@
 function addPost()
 {
-	var name = prompt("Name");
-	var blogpost = prompt("Blog Test:");
+  var name = prompt("Name");
+  var blogpost = prompt("Blog Test:");
 
-	var mainBlog = document.getElementById("blogs");
-	mainBlog.innerHTML += "<article><h1>" + name + "</h1><p>" + blogpost + "</p></article>";
+  var mainBlog = document.getElementById("blogs");
+  mainBlog.innerHTML += "<article><h1>" + name + "</h1><p>" + blogpost + "</p></article>";
 }
 
 function previewFiles() {
@@ -34,5 +34,8 @@ function previewFiles() {
   if (files) {
     [].forEach.call(files, readAndPreview);
   }
+}
 
+function punArr() {
+    document.getElementById("pun").innerHTML = "THIS WORKS";
 }
