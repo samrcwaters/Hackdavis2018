@@ -150,7 +150,7 @@ input.button:active, input.buttonUpload:active {
 /* ABOUT INFO - ABOUT PAGE */
 
 p.aboutinfo {
-    margin: 5vw 20vw 10vw 20vw;
+    margin: 5vw 20vw 5vw 20vw;
     padding: 0.5vw;
     font-size: 2vw;
     color:#fff;
