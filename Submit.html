@@ -27,8 +27,8 @@
 	<section>
 		<div class = "uploadSection">
 			<form action="/action_page.php" method="get">
-  				<input class = "button" type="file" onchange = "inputPicture()">
-				<img src="" height="200" alt="Image preview...">
+  				<input class = "buttonUpload" type="file" onchange="previewFiles()" multiple>
+				<div id="preview"></div>
 			</form>
 		</div>
 	</section>
