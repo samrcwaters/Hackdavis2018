@@ -30,8 +30,8 @@ nav {
 }
 
 img {
-    width: 100vw;
-    height: 30vh;
+    /* width: 100vw;
+    height: 30vh; */
     position: fixed;
     left:0;
     top:0;
