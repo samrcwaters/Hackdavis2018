@@ -1,3 +1,7 @@
+/* NORMALIZE.CSS - ALL PAGES */
+
+@import url('https://necolas.github.io/normalize.css/7.0.0/normalize.css');
+
 /* FONT - ALL PAGES */
 
 @font-face {
@@ -16,6 +20,7 @@ body {
     background-image: url('Images/bg.jpg');
     background-position: right;
     background-attachment: fixed;
+    transition: 1s;
 }
 
 div#welcome {
@@ -24,6 +29,7 @@ div#welcome {
     color:#fff;
     font-size: 5vw;
     text-shadow: 0.15vw 0.15vw 0.3vw #000;
+    transition: 1s;
 }
 
 div#navigation {
@@ -43,10 +49,12 @@ nav {
     position: fixed;
     top:0;
     left:0;
+    transition: 1s;
 }
 
 nav:hover {
     background:linear-gradient(#09fc,#0000);
+    transition: 1s;
 }
 
 img.logo {
@@ -55,6 +63,11 @@ img.logo {
     left:0;
     bottom:0;
     margin: 2vw;
+    transition: 1s;
+}
+
+img.logo:hover {
+    filter: invert(100%);
 }
 
 img.upload {
@@ -62,6 +75,7 @@ img.upload {
     position: fixed;
     right:0;
     bottom:0;
+    transition: 1s;
 }
 
 section {
@@ -74,6 +88,7 @@ section {
 
 a {
     text-decoration: none;
+    transition: 1s;
 }
 
 a.buttonLink {
@@ -88,12 +103,12 @@ a.buttonLink:link, a.buttonLink:visited {
 }
 
 a.buttonLink:hover {
-    color:#ff6;
+    color:#cc6;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
 }
 
 a.buttonLink:active {
-    color:#ff6;
+    color:#cc6;
     text-shadow: 0.07vw 0.07vw 0.15vw #f00;
 }
 
@@ -101,6 +116,7 @@ a.buttonLink:active {
 
 div.searchOptions {
     margin: 5vw 0 0 0;
+    transition: 1s;
 }
 
 div.options {
@@ -109,10 +125,12 @@ div.options {
     margin: 2vw;
     padding: 0.5vw;
     font-size: 2vw;
+    transition: 1s;
 }
 
 div.uploadSection {
 	text-align: center;
+    transition: 1s;
 }
 
 span {
@@ -120,6 +138,11 @@ span {
     text-align: center;
     margin: 17.5vw;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
+    transition: 1s;
+}
+
+input {
+    transition: 1s;
 }
 
 div.options input {
@@ -197,6 +220,7 @@ img.signature {
     position: absolute;
     left: 60vw;
     top: 50vw;
+    cursor: default;
 }
 
 /* SUBMIT BUTTON - SUBMIT PAGE */
@@ -210,12 +234,14 @@ div.uploadSection {
 /* width */
 ::-webkit-scrollbar {
     width: 1vw;
+    transition: 1s;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 1vw #666; 
     border-radius: 0vw;
+    transition: 1s;
 }
  
 /* Handle */
@@ -223,9 +249,21 @@ div.uploadSection {
     background: #ccc; 
     border-radius: 10vw;
     box-shadow: inset 0 0 1vw #fff;
+    transition: 1s;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #666; 
+    background: #666;
+}
+
+/* Remove blue border from tab select. */
+:focus {
+    outline: 0;
+}
+
+/* Customize text highlight color. */
+::selection {
+    color: #fff;
+    background: #cc66;
 }
