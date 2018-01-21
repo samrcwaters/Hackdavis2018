@@ -11,4 +11,21 @@
         <p class="words1" id="demo" style="text-align:center;">RESULT</p>
     </body>
     <script src="locationParse.js"></script>
-</html>
+    <div id="map" width="100%" height="400px"></div>
+    <!-- <script src="showMap.js"></script> -->
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu1fll2YSB80PLhURtugqitjpXySf2TD8&callback=initMap">
+    </script></html>
