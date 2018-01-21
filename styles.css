@@ -119,7 +119,7 @@ input.button, input.buttonUpload {
     font-family: tellural;
     color: #fff;
     width: fit-content;
-    margin: 0 0 10vh 45vw;
+    /*margin: 0 0 10vh 45vw;*/
     padding: 2vw;
     font-size: 2vw;
     border-radius: 1vw;
@@ -127,6 +127,14 @@ input.button, input.buttonUpload {
     border:0.2vw solid #000;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
     cursor: pointer;
+}
+
+input.button {
+    margin: 0 0 10vh 45vw;
+}
+
+input.buttonUpload {
+    margin: auto;
 }
 
 input.button:hover, input.buttonUpload:hover {
@@ -147,4 +155,10 @@ p.aboutinfo {
     font-size: 2vw;
     color:#fff;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
+}
+
+/* SUBMIT BUTTON - SUBMIT PAGE */
+
+div.uploadSection {
+    margin: auto;
 }
