@@ -48,6 +48,13 @@ img.logo {
     bottom:0;
 }
 
+img.upload {
+	width:30vh;
+    position: fixed;
+    right:0;
+    bottom:0;
+}
+
 /* NAV BAR - ALL PAGES */
 
 a {
@@ -89,6 +96,10 @@ div.options {
     font-size: 2vw;
 }
 
+div.uploadSection {
+	text-align: center;
+}
+
 .logo {
     margin: 20px;
 }
@@ -127,6 +138,27 @@ input.button:active {
     border:0.2vw solid #000;
 }
 
+input.buttonUpload {
+    font-family: tellural;
+    color: #fff;
+    width: fit-content;
+    padding: 2vw;
+    font-size: 2vw;
+    border-radius: 1vw;
+    background-color: #000;
+    border:0.2vw solid #000;
+    text-shadow: 0.07vw 0.07vw 0.15vw #000;
+}
+
+input.buttonUpload:hover {
+    background-color: #333;
+    border:0.2vw solid #000;
+}
+
+input.buttonUpload:active {
+    background-color: #666;
+    border:0.2vw solid #000;
+}
 /* ABOUT INFO - ABOUT PAGE */
 
 p.aboutinfo {

@@ -7,18 +7,32 @@ function addPost()
 	mainBlog.innerHTML += "<article><h1>" + name + "</h1><p>" + blogpost + "</p></article>";
 }
 
-function inputPicture() {
-  var preview = document.querySelector('img');
-  var file    = document.querySelector('input[type=file]').files[0];
-  var reader  = new FileReader();
+function previewFiles() {
 
-  reader.onloadend = function () {
-    preview.src = reader.result;
+  var preview = document.querySelector('#preview');
+  var files   = document.querySelector('input[type=file]').files;
+
+  function readAndPreview(file) {
+
+    // Make sure `file.name` matches our extensions criteria
+    if ( /\.(jpe?g|png|gif)$/i.test(file.name) ) {
+      var reader = new FileReader();
+
+      reader.addEventListener("load", function () {
+        var image = new Image();
+        image.height = 100;
+        image.title = file.name;
+        image.src = this.result;
+        preview.appendChild( image );
+      }, false);
+
+      reader.readAsDataURL(file);
+    }
+
   }
 
-  if (file) {
-    reader.readAsDataURL(file);
-  } else {
-    preview.src = "";
+  if (files) {
+    [].forEach.call(files, readAndPreview);
   }
+
 }
