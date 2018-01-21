@@ -13,6 +13,7 @@
 
 body {
     font-family: tellural, 'Trebuchet MS', Arial;
+    color: #fff;
     border:0;
     margin:10vh 0 0 0;
     padding:0;
@@ -26,7 +27,6 @@ body {
 div#welcome {
     margin: 0 30vw 0 30vw;
     text-align: center;
-    color:#fff;
     font-size: 5vw;
     text-shadow: 0.15vw 0.15vw 0.3vw #000;
     transition: 1s;
@@ -87,6 +87,7 @@ section {
 /* NAV BAR - ALL PAGES */
 
 a {
+    color: #fff;
     text-decoration: none;
     transition: 1s;
 }
@@ -98,7 +99,6 @@ a.buttonLink {
 }
 
 a.buttonLink:link, a.buttonLink:visited {
-    color:#fff;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
 }
 
@@ -121,7 +121,6 @@ div.searchOptions {
 
 div.options {
     font-family: tellural, 'Trebuchet MS', Arial;
-    color:#fff;
     margin: 2vw;
     padding: 0.5vw;
     font-size: 2vw;
@@ -142,6 +141,7 @@ span {
 }
 
 input {
+    color: #fff;
     transition: 1s;
 }
 
@@ -151,7 +151,6 @@ div.options input {
 
 input.button, input.buttonUpload {
     font-family: tellural, 'Trebuchet MS', Arial;
-    color: #fff;
     width: fit-content;
     /*margin: 0 0 10vh 45vw;*/
     padding: 2vw;
@@ -186,7 +185,6 @@ input.button:active, input.buttonUpload:active {
 input.textField {
     font-family: tellural, 'Trebuchet MS', Arial;
     font-size:2vw;
-    color:#fff;
     background-color: #000;
     border:0.2vw solid #fff;
     border-radius: 1vw;
@@ -197,9 +195,7 @@ input.textField {
 input.textField:focus {
     font-family: tellural, 'Trebuchet MS', Arial;
     font-size:2vw;
-    color:#fff;
     background-color: #333;
-    border:0.2vw solid #fff;
     border-radius: 1vw;
     margin:1vw;
     padding: 0.5vw;
@@ -211,7 +207,6 @@ p.aboutinfo {
     margin: 5vw 20vw 5vw 20vw;
     padding: 0.5vw;
     font-size: 2vw;
-    color:#fff;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
 }
 
@@ -264,6 +259,5 @@ div.uploadSection {
 
 /* Customize text highlight color. */
 ::selection {
-    color: #fff;
     background: #cc66;
 }
