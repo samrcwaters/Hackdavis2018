@@ -3,11 +3,11 @@
 <head>
 	<title>UC Davis 2018 HACKATHON</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<script src="./blog.js"></script>
+	<script src="./website.js"></script>
 </head>
 <body>
 	<!--<a class = "websiteName" href = "./Home.html"> HELLOCAL </a>-->
-	<div class = "logo">
+	<div>
 		<a href = "./Home.html"> <img class = "logo" src="https://i.imgur.com/tYHP9ua.png" alt = "testpic" vstyle="width:42px;height:42px;border:0;"> </a>
 	</div>
 	<section>
@@ -27,7 +27,8 @@
 	<section>
 		<div class = "uploadSection">
 			<form action="/action_page.php" method="get">
-  				<input class = "button" type="file" onchange = "previewFile()" value="Upload">
+  				<input class = "button" type="file" onchange = "inputPicture()">
+				<img src="" height="200" alt="Image preview...">
 			</form>
 		</div>
 	</section>
