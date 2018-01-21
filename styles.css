@@ -181,6 +181,13 @@ p.aboutinfo {
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
 }
 
+img.signature {
+    width: 30vw;
+    position: absolute;
+    left: 60vw;
+    bottom: -5vh;
+}
+
 /* SUBMIT BUTTON - SUBMIT PAGE */
 
 div.uploadSection {
