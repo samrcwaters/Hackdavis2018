@@ -12,4 +12,5 @@ function getRand() {
     var randNum = Math.random();
     randNum = randNum%20;
     console.log(puns[randNum]);
+    //return puns[randNum];
 }
