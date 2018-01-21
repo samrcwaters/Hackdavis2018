@@ -17,7 +17,7 @@ div#welcome {
     text-align: center;
     color:#fff;
     font-size: 5vw;
-    text-shadow: 0.25vw 0.25vw 0.5vw #000;
+    text-shadow: 0.15vw 0.15vw 0.3vw #000;
 }
 
 div#navigation {
@@ -37,6 +37,8 @@ img {
     top:0;
 }
 
+/* NAV BAR - ALL PAGES */
+
 a {
     text-decoration: none;
 }
@@ -44,44 +46,78 @@ a {
 a.buttonLink {
     margin: 4vw;
     padding: 0.5vw;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 a.buttonLink:link, a.buttonLink:visited {
     color:#fff;
-    text-shadow: 0.15vw 0.15vw 0.30vw #000;
+    text-shadow: 0.07vw 0.07vw 0.15vw #000;
 }
 
 a.buttonLink:hover {
     color:#ff6;
-    text-shadow: 0.15vw 0.15vw 0.30vw #000;
+    text-shadow: 0.07vw 0.07vw 0.15vw #000;
 }
 
 a.buttonLink:active {
     color:#ff6;
-    text-shadow: 0.15vw 0.15vw 0.30vw #f00;
+    text-shadow: 0.07vw 0.07vw 0.15vw #f00;
 }
 
-input {
+/* INPUT - SEARCH PAGE */
+
+div.searchOptions {
+    margin: 5vw 0 0 0;
+}
+
+div.options {
     font-family: tellural;
     color:#fff;
-    margin: 1vw;
+    margin: 2vw;
     padding: 0.5vw;
-    font-size: 2.5vw;
+    font-size: 2vw;
+}
+
+span {
+    display: inline;
+    text-align: center;
+    margin: 17.5vw;
+    text-shadow: 0.07vw 0.07vw 0.15vw #000;
+}
+
+div.options input {
+    margin: 1vw;
 }
 
 input.button {
+    font-family: tellural;
+    color: #fff;
+    width: fit-content;
+    margin: 0 0 10vh 45vw;
+    padding: 2vw;
+    font-size: 2vw;
     border-radius: 1vw;
-    background-color: inherit;
+    background-color: #000;
     border:0.2vw solid #000;
+    text-shadow: 0.07vw 0.07vw 0.15vw #000;
 }
 
 input.button:hover {
-    background-color: #000;
-    border:0.2vw solid #fff;
+    background-color: #333;
+    border:0.2vw solid #000;
 }
 
 input.button:active {
-    background-color: inherit;
-    border:0.2vw solid #fff;
+    background-color: #666;
+    border:0.2vw solid #000;
+}
+
+/* ABOUT INFO - ABOUT PAGE */
+
+p.aboutinfo {
+    margin: 5vw 20vw 10vw 20vw;
+    padding: 0.5vw;
+    font-size: 2vw;
+    color:#fff;
+    text-shadow: 0.07vw 0.07vw 0.15vw #000;
 }
