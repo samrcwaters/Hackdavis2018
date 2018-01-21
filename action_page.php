@@ -29,10 +29,10 @@
         <div class="options">
             <p class="words">
 				<?php
-				if (isset($_POST["name"]) { echo "Name: " . $_POST["name"] . "<br>"; }
-				if (isset($_POST["location"]) { echo "Location: " . $_POST["location"] . "<br>"; }
-				if (isset($_POST["tags"]) { echo "Tags: " . $_POST["tags"] . "<br>"; }
-				if (!isset($_POST["name"])&&!isset($_POST["location"])&&!isset($_POST["tags"]) {
+				if (true) { echo "Name: " . $_POST["name"] . "<br>"; }
+				if (true) { echo "Location: " . $_POST["location"] . "<br>"; }
+				if (true) { echo "Tags: " . $_POST["tags"] . "<br>"; }
+				if (false) {
 					echo "Thanks for telling us how you feel!" . "<br>";
 					echo "We'll help you get where you want to go!";
 				}
