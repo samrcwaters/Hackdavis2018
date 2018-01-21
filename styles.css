@@ -115,7 +115,7 @@ div.options input {
     margin: 1vw;
 }
 
-input.button {
+input.button, input.buttonUpload {
     font-family: tellural;
     color: #fff;
     width: fit-content;
@@ -126,39 +126,19 @@ input.button {
     background-color: #000;
     border:0.2vw solid #000;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
+    cursor: pointer;
 }
 
-input.button:hover {
+input.button:hover, input.buttonUpload:hover {
     background-color: #333;
     border:0.2vw solid #000;
 }
 
-input.button:active {
+input.button:active, input.buttonUpload:active {
     background-color: #666;
     border:0.2vw solid #000;
 }
 
-input.buttonUpload {
-    font-family: tellural;
-    color: #fff;
-    width: fit-content;
-    padding: 2vw;
-    font-size: 2vw;
-    border-radius: 1vw;
-    background-color: #000;
-    border:0.2vw solid #000;
-    text-shadow: 0.07vw 0.07vw 0.15vw #000;
-}
-
-input.buttonUpload:hover {
-    background-color: #333;
-    border:0.2vw solid #000;
-}
-
-input.buttonUpload:active {
-    background-color: #666;
-    border:0.2vw solid #000;
-}
 /* ABOUT INFO - ABOUT PAGE */
 
 p.aboutinfo {
