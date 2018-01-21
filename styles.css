@@ -1,26 +1,22 @@
 @font-face {
-    font-family: primelight;
-    src:url('Fonts/Prime_Light.otf');
-}
-
-@font-face {
-    font-family: primereg;
-    src:url('Fonts/Prime_Regular.otf');
+    font-family: tellural;
+    src:url('Fonts/Tellural.ttf');
 }
 
 body {
-    font-family: primelight;
+    font-family: tellural;
     border:0;
-    margin:30vh 0 0 0;
+    margin:40vh 0 0 0;
     padding:0;
-    background-color: #fc9;
+    /*background-color: #966;*/
+    background-color: #f60;
 }
 
 div#welcome {
-    font-family: primereg;
+    margin: 0 30vw 0 30vw;
     text-align: center;
-    color:red;
-    font-size: 9vw;
+    color:#fff;
+    font-size: 5vw;
     text-shadow: 0.25vw 0.25vw 0.5vw #000;
 }
 
@@ -34,6 +30,8 @@ nav {
 }
 
 img {
+    width: 100vw;
+    height: 30vh;
     position: fixed;
     left:0;
     top:0;
@@ -44,21 +42,46 @@ a {
 }
 
 a.buttonLink {
-    margin: 5vw;
+    margin: 4vw;
+    padding: 0.5vw;
     font-size: 3vw;
 }
 
 a.buttonLink:link, a.buttonLink:visited {
-    color:#f00;
+    color:#fff;
     text-shadow: 0.15vw 0.15vw 0.30vw #000;
 }
 
 a.buttonLink:hover {
-    color:#f60;
+    color:#ff6;
     text-shadow: 0.15vw 0.15vw 0.30vw #000;
 }
 
 a.buttonLink:active {
-    color:#f60;
+    color:#ff6;
     text-shadow: 0.15vw 0.15vw 0.30vw #f00;
+}
+
+input {
+    font-family: tellural;
+    color:#fff;
+    margin: 1vw;
+    padding: 0.5vw;
+    font-size: 2.5vw;
+}
+
+input.button {
+    border-radius: 1vw;
+    background-color: inherit;
+    border:0.2vw solid #000;
+}
+
+input.button:hover {
+    background-color: #000;
+    border:0.2vw solid #fff;
+}
+
+input.button:active {
+    background-color: inherit;
+    border:0.2vw solid #fff;
 }
