@@ -29,15 +29,13 @@
         <div class="options">
             <p class="words">
 				<?php
-				if ($_POST["type"]=="submission") {
+				if (isset($_POST["name"]) {
 					echo "Name: " . $_POST["name"] . "<br>";
 					echo "Location: " . $_POST["location"] . "<br>";
 					echo "Tags: " . $_POST["tags"] . "<br>";
 				}
-				else if ($_POST["type"]=="emotion") {
-					echo "Thanks for telling us how you feel!";
-				}
-				else if ($_POST["type"]=="goto") {
+				else {
+					echo "Thanks for telling us how you feel!" . "<br>";
 					echo "We'll help you get where you want to go!";
 				}
 				?>
