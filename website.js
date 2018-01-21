@@ -7,6 +7,8 @@ function addPost()
   mainBlog.innerHTML += "<article><h1>" + name + "</h1><p>" + blogpost + "</p></article>";
 }
 
+
+//function credit to author at: https://developer.mozilla.org/en-US/docs/Web/API/FileReader/readAsDataURL
 function previewFiles() {
 
   var preview = document.querySelector('#preview');
@@ -37,5 +39,6 @@ function previewFiles() {
 }
 
 function punArr() {
-    document.getElementById("pun").innerHTML = "THIS WORKS";
+    var puns[4] = {"test", "is", "a", "test"};
+    document.getElementById("pun").innerHTML = puns[Math.floor((Math.random() * 4) + 1)];
 }
