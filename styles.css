@@ -184,6 +184,7 @@ input.textField {
     border-radius: 1vw;
     margin:1vw;
     padding: 0.5vw;
+    transition: 1s;
 }
 
 input.textField:focus {
@@ -195,6 +196,7 @@ input.textField:focus {
     border-radius: 1vw;
     margin:1vw;
     padding: 0.5vw;
+    transition: 1s;
 }
 
 /* ABOUT INFO - ABOUT PAGE */
@@ -248,4 +250,9 @@ div.uploadSection {
 ::-webkit-scrollbar-thumb:hover {
     background: #666;
     transition: 1s;
+}
+
+/* Remove blue border from tab select. */
+:focus {
+    outline: 0;
 }
