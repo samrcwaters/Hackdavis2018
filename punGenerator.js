@@ -13,4 +13,5 @@ function getRand() {
     randNum = randNum%20;
     console.log(puns[randNum]);
     //return puns[randNum];
+    return;
 }
