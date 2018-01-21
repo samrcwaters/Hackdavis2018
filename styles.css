@@ -82,7 +82,7 @@ a.buttonLink:active {
     text-shadow: 0.07vw 0.07vw 0.15vw #f00;
 }
 
-/* INPUT - SEARCH PAGE */
+/* INPUT - SEARCH PAGE AND UPLOAD PAGE */
 
 div.searchOptions {
     margin: 5vw 0 0 0;
@@ -134,7 +134,7 @@ input.button {
 }
 
 input.buttonUpload {
-    margin: auto;
+    margin: 0 auto 2vh 0;
 }
 
 input.button:hover, input.buttonUpload:hover {
@@ -145,6 +145,30 @@ input.button:hover, input.buttonUpload:hover {
 input.button:active, input.buttonUpload:active {
     background-color: #666;
     border:0.2vw solid #000;
+}
+
+/* SUBMIT FORM - UPLOAD PAGE */
+
+input.textField {
+    font-family: tellural;
+    font-size:2vw;
+    color:#fff;
+    background-color: #000;
+    border:0.2vw solid #fff;
+    border-radius: 1vw;
+    margin:1vw;
+    padding: 0.5vw;
+}
+
+input.textField:focus {
+    font-family: tellural;
+    font-size:2vw;
+    color:#fff;
+    background-color: #333;
+    border:0.2vw solid #fff;
+    border-radius: 1vw;
+    margin:1vw;
+    padding: 0.5vw;
 }
 
 /* ABOUT INFO - ABOUT PAGE */
