@@ -8,7 +8,7 @@
 /* TITLES, NAV, AND LOGO - ALL PAGES*/
 
 body {
-    font-family: tellural;
+    font-family: tellural, 'Trebuchet MS', Arial;
     border:0;
     margin:10vh 0 0 0;
     padding:0;
@@ -89,7 +89,7 @@ div.searchOptions {
 }
 
 div.options {
-    font-family: tellural;
+    font-family: tellural, 'Trebuchet MS', Arial;
     color:#fff;
     margin: 2vw;
     padding: 0.5vw;
@@ -116,7 +116,7 @@ div.options input {
 }
 
 input.button, input.buttonUpload {
-    font-family: tellural;
+    font-family: tellural, 'Trebuchet MS', Arial;
     color: #fff;
     width: fit-content;
     /*margin: 0 0 10vh 45vw;*/
@@ -150,7 +150,7 @@ input.button:active, input.buttonUpload:active {
 /* SUBMIT FORM - UPLOAD PAGE */
 
 input.textField {
-    font-family: tellural;
+    font-family: tellural, 'Trebuchet MS', Arial;
     font-size:2vw;
     color:#fff;
     background-color: #000;
@@ -161,7 +161,7 @@ input.textField {
 }
 
 input.textField:focus {
-    font-family: tellural;
+    font-family: tellural, 'Trebuchet MS', Arial;
     font-size:2vw;
     color:#fff;
     background-color: #333;
