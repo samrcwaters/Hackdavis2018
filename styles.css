@@ -20,6 +20,7 @@ body {
     background-image: url('Images/bg.jpg');
     background-position: right;
     background-attachment: fixed;
+    transition: 1s;
 }
 
 div#welcome {
@@ -28,6 +29,7 @@ div#welcome {
     color:#fff;
     font-size: 5vw;
     text-shadow: 0.15vw 0.15vw 0.3vw #000;
+    transition: 1s;
 }
 
 div#navigation {
@@ -66,7 +68,6 @@ img.logo {
 
 img.logo:hover {
     filter: invert(100%);
-    transition: 1s;
 }
 
 img.upload {
@@ -74,6 +75,7 @@ img.upload {
     position: fixed;
     right:0;
     bottom:0;
+    transition: 1s;
 }
 
 section {
@@ -86,6 +88,7 @@ section {
 
 a {
     text-decoration: none;
+    transition: 1s;
 }
 
 a.buttonLink {
@@ -97,25 +100,23 @@ a.buttonLink {
 a.buttonLink:link, a.buttonLink:visited {
     color:#fff;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
-    transition: 1s;
 }
 
 a.buttonLink:hover {
     color:#cc6;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
-    transition: 1s;
 }
 
 a.buttonLink:active {
     color:#cc6;
     text-shadow: 0.07vw 0.07vw 0.15vw #f00;
-    transition: 1s;
 }
 
 /* INPUT - SEARCH PAGE AND UPLOAD PAGE */
 
 div.searchOptions {
     margin: 5vw 0 0 0;
+    transition: 1s;
 }
 
 div.options {
@@ -124,10 +125,12 @@ div.options {
     margin: 2vw;
     padding: 0.5vw;
     font-size: 2vw;
+    transition: 1s;
 }
 
 div.uploadSection {
 	text-align: center;
+    transition: 1s;
 }
 
 span {
@@ -135,6 +138,11 @@ span {
     text-align: center;
     margin: 17.5vw;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
+    transition: 1s;
+}
+
+input {
+    transition: 1s;
 }
 
 div.options input {
@@ -153,7 +161,6 @@ input.button, input.buttonUpload {
     border:0.2vw solid #000;
     text-shadow: 0.07vw 0.07vw 0.15vw #000;
     cursor: pointer;
-    transition: 1s;
 }
 
 input.button {
@@ -162,19 +169,16 @@ input.button {
 
 input.buttonUpload {
     margin: 0 auto 2vh 0;
-    transition: 1s;
 }
 
 input.button:hover, input.buttonUpload:hover {
     background-color: #333;
     border:0.2vw solid #000;
-    transition: 1s;
 }
 
 input.button:active, input.buttonUpload:active {
     background-color: #666;
     border:0.2vw solid #000;
-    transition: 1s;
 }
 
 /* SUBMIT FORM - UPLOAD PAGE */
@@ -188,7 +192,6 @@ input.textField {
     border-radius: 1vw;
     margin:1vw;
     padding: 0.5vw;
-    transition: 1s;
 }
 
 input.textField:focus {
@@ -200,7 +203,6 @@ input.textField:focus {
     border-radius: 1vw;
     margin:1vw;
     padding: 0.5vw;
-    transition: 1s;
 }
 
 /* ABOUT INFO - ABOUT PAGE */
@@ -253,10 +255,15 @@ div.uploadSection {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #666;
-    transition: 1s;
 }
 
 /* Remove blue border from tab select. */
 :focus {
     outline: 0;
+}
+
+/* Customize text highlight color. */
+::selection {
+    color: #fff;
+    background: #cc66;
 }
