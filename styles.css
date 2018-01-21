@@ -1,15 +1,21 @@
+/* FONT - ALL PAGES */
+
 @font-face {
     font-family: tellural;
     src:url('Fonts/Tellural.ttf');
 }
+
+/* TITLES, NAV, AND LOGO - ALL PAGES*/
 
 body {
     font-family: tellural;
     border:0;
     margin:10vh 0 0 0;
     padding:0;
-    /*background-color: #966;*/
-    background-color: #f60;
+    background-color:#000;
+    background-image: url('Images/bg.jpg');
+    background-position: center;
+    background-attachment: fixed;
 }
 
 div#welcome {
@@ -26,7 +32,7 @@ div#navigation {
 }
 
 nav {
-    background-color:#f60;
+    /*background-color:#f60;*/
     margin:0;
     padding: 2.5vh 0 1vh 0;
     width: fit-content;
@@ -35,7 +41,7 @@ nav {
     left:0;
 }
 
-img {
+img.logo {
     width:30vh;
     position: fixed;
     left:0;
