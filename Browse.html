@@ -8,34 +8,36 @@
 <body>
 	<!--<a class = "websiteName" href = "./Home.html"> HELLOCAL </a>-->
 	<div class = "logo">
-		<a href = "./Home.html"> <img class = "logo" src="https://i.imgur.com/G7UWo.gif" alt = "testpic" vstyle="width:42px;height:42px;border:0;"> </a>
+		<a href = "./Home.html"> <img class = "logo" src="https://i.imgur.com/tYHP9ua.png" alt = "testpic" vstyle="width:42px;height:42px;border:0;"> </a>
 	</div>
 	<section>
-		<div id = "welcome">
-			<p class = "words">What You Looking For?</p>
+		<div class = "navigation">
+			<nav>
+				<a href="./Browse.html" class = "buttonLink" >Find Something To Do</a>
+				<a href="./Submit.html" class = "buttonLink" >Share Your Experience</a>
+				<a href="./About.html" class = "buttonLink" >About Us</a>
+			</nav>
 		</div>
 	</section>
-	<div class = "navigation">
-		<nav>
-			<a href="./Browse.html" class = "buttonLink" >Find Something To Do</a>
-			<a href="./Submit.html" class = "buttonLink" >Share Your Experience</a>
-			<a href="./About.html" class = "buttonLink" >About Us</a>
-		</nav>
-	</div>
+	<section>
+		<div id = "welcome">
+			<p class = "words">How are you feeling?</p>
+		</div>
+	</section>
 	<section>
 		<div class="searchOptions">
     		<form action="/action_page.php" method="get">
     			<div class = "options">
-    				<span> <input type="checkbox" name="thingsToDo" value="Nature">Nature</span>
-  					<span> <input type="checkbox" name="thingsToDo" value="Shop">Shop</span>
+    				<span class = "left"> <input type="checkbox" name="thingsToDo" value="Happy">Happy</span>
+  					<span class = "right"> <input type="checkbox" name="thingsToDo" value="Sad">Sad</span>
   				</div>
   				<div class = "options">
-  					<span> <input type="checkbox" name="thingsToDo" value="Movie">Movie</span>
-  					<span> <input type="checkbox" name="thingsToDo" value="Random">Random</span>
+  					<span> <input type="checkbox" name="thingsToDo" value="Lonely">Lonely</span>
+  					<span> <input type="checkbox" name="thingsToDo" value="Stressed">Stressed</span>
   				</div>
   				<div class = "options">
-  					<span> <input type="checkbox" name="thingsToDo" value="Study">Study</span>
-  					<span> <input type="checkbox" name="thingsToDo" value="Relax">Relax</span>
+  					<span> <input type="checkbox" name="thingsToDo" value="Bored">Bored</span>
+  					<span> <input type="checkbox" name="thingsToDo" value="Meh">Meh</span>
   				</div>
   				<input class = "button" type="submit" value="Submit">
 			</form>
